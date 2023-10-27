@@ -8,6 +8,7 @@ import howitworks from './images/howitworks.png'
 import ava from './images/ava.png'
 import ava2 from './images/ava2.png'
 import ava3 from './images/ava3.png'
+import ava4 from './images/ava4.png'
 import last from './images/last.png'
 
 const Main = () => {
@@ -77,11 +78,11 @@ const Main = () => {
                             </div>
                         </div>
 
-                        <div className='text-4xl font-bold text-white pb-8 pt-8'>
+                        <div className='text-3xl font-bold text-white pb-8 pt-8'>
                             Как это работает?
                         </div>
                         <div className='w-[100%] flex flex-col items-center justify-center'>
-                            <img src={howitworks} className='sm:w-[50%]'/>
+                            <img src={howitworks} className='sm:w-[30%]'/>
                         </div>
 
                         <div className='text-4xl font-bold text-white p-8'>
@@ -110,6 +111,16 @@ const Main = () => {
                             </div>
 
                             <div className='flex flex-col justify-center items-center w-[80%]'>
+                                <img src={ava4} className='p-8 pb-3'/>
+                                <div className='text-white font-bold'>
+                                    Andrey "Slon2"
+                                </div>
+                                <div className='text-white w-[90%] text-center'>
+                                    Java Senior Developer
+                                </div>
+                            </div>
+
+                            <div className='flex flex-col justify-center items-center w-[80%]'>
                                 <img src={ava3} className='p-8 pb-3'/>
                                 <div className='text-white font-bold'>
                                     Artem "Adonis"
@@ -122,7 +133,7 @@ const Main = () => {
                         </div>
 
                         <div className='pt-24 pb-20'>
-                           <a href='https://t.me/contentbotoff'><div className=' text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-indigo-300 border-solid border-2 rounded-lg border-purple-400 text-center justify-center text-2xl pl-10 pr-10 p-3 cursor-pointer font-bold hover:bg-white hover:text-white hover:border-white'>Telegram Bot</div></a>
+                           <a href='https://t.me/cntnt_tech'><div className=' text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-indigo-300 border-solid border-2 rounded-lg border-purple-400 text-center justify-center text-2xl pl-10 pr-10 p-3 cursor-pointer font-bold hover:bg-white hover:text-white hover:border-white'>Telegram Bot</div></a>
                         </div>
 
                         <div>

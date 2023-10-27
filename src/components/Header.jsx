@@ -13,7 +13,7 @@ export default function Header() {
                              <h2 className="text-xl font-bold text-white">CNTNT</h2> 
                         </Link>
                         <img src={logo} className='w-[80px] p-2'/>
-                        <a href='https://t.me/contentbotoff'><h2 className="text-xl font-bold text-white">TLGRM</h2></a>
+                        <a href='https://t.me/cntnt_tech'><h2 className="text-xl font-bold text-white">TLGRM</h2></a>
                     </div>
                 </div>
             </div>
