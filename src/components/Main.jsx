@@ -20,19 +20,13 @@ const Main = () => {
     return (
         <>
             <Header/>
-            <div className='scroll-smooth flex flex-col justify-center items-center overflow-hidden bg-black font-mono'>
+            <div className='scroll-smooth flex flex-col justify-center items-center overflow-hidden bg-black font-sans'>
                 <div className='pt-[120px] flex flex-col justify-center items-center'>
-                    <div className='text-4xl sm:text-[500%] font-extrabold text-transparent bg-clip-text bg-gradient-to-b from-purple-500 to-indigo-400 sm:pb-12 sm:p-3'>
+                    <div className='text-3xl sm:text-[500%]  font-bold text-[#00FF00] sm:pb-12 sm:p-3 font-sans'>
                         АВТОМАТИЗИРУЙ
                     </div>
-                    <div className='text-4xl sm:text-[500%] font-extrabold text-transparent bg-clip-text bg-gradient-to-b from-purple-300 to-indigo-400 sm:pb-12 sm:p-3'>
-                        АКТУАЛИЗИРУЙ
-                    </div>
-                    <div className='text-4xl sm:text-[500%] font-extrabold text-transparent bg-clip-text bg-gradient-to-b from-purple-400 to-indigo-300 sm:pb-12 sm:p-3'>
-                        ОПТИМИЗИРУЙ
-                    </div>
-                    <div className='text-4xl sm:text-[500%] font-extrabold text-transparent bg-clip-text bg-gradient-to-b from-purple-400 to-indigo-300 sm:pb-12 sm:p-3'>
-                        КОНТЕНТ
+                    <div className='text-3xl sm:text-[500%]  font-bold  text-[#00FF00] sm:pb-12 sm:p-3 font-sans'>
+                        КОНТЕНТМЕЙКИНГ
                     </div>
                     <div className='w-[100%] flex justify-center items-center'>
 
@@ -48,7 +42,7 @@ const Main = () => {
                         <div className='flex flex-col justify-center items-center w-[100%] gap-9'>
                             <div className='bg-gradient-to-r from-zinc-700 rounded-lg w-[90%] sm:w-[60%] flex flex-col'>
                                 <div className='p-4 flex flex-col gap-3'>
-                                    <div className='text-orange-300 font-bold text-3xl'>
+                                    <div className='text-[#00FF00] font-bold text-3xl'>
                                         Автоматизация
                                     </div>
                                     <div className='text-white'>
@@ -58,7 +52,7 @@ const Main = () => {
                             </div>
                             <div className='bg-gradient-to-r from-zinc-700 rounded-lg w-[90%] sm:w-[60%] flex flex-col'>
                                 <div className='p-4 flex flex-col gap-3'>
-                                    <div className='text-orange-500 font-bold text-3xl'>
+                                    <div className='text-[#00FF00] font-bold text-3xl'>
                                         Оптимизация
                                     </div>
                                     <div className='text-white'>
@@ -68,7 +62,7 @@ const Main = () => {
                             </div>
                             <div className='bg-gradient-to-r from-zinc-700 rounded-lg w-[90%]  sm:w-[60%] flex flex-col'>
                                 <div className='p-4 flex flex-col gap-3'>
-                                    <div className='text-rose-500 font-bold text-3xl'>
+                                    <div className='text-[#00FF00] font-bold text-3xl'>
                                         Актуализация
                                     </div>
                                     <div className='text-white'>
@@ -133,7 +127,7 @@ const Main = () => {
                         </div>
 
                         <div className='pt-24 pb-20'>
-                           <a href='https://t.me/cntnt_tech'><div className=' text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-indigo-300 border-solid border-2 rounded-lg border-purple-400 text-center justify-center text-2xl pl-10 pr-10 p-3 cursor-pointer font-bold hover:bg-white hover:text-white hover:border-white'>Telegram Bot</div></a>
+                           <a href='https://t.me/cntnt_tech'><div className=' text-transparent bg-clip-text bg-[#00FF00] border-solid border-4 rounded-lg border-[#00FF00] text-center justify-center text-2xl pl-10 pr-10 p-3 cursor-pointer font-bold hover:bg-white hover:text-white hover:border-white'>Telegram Bot</div></a>
                         </div>
 
                         <div>
